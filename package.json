@@ -103,23 +103,16 @@
   ],
   "paths": {
     "chicco": "./chicco",
-    "base": "./storefront-reference-architecture",
-    "payu": "./payu",
-    "wishlist": "./whislist"
+    "base": "./storefront-reference-architecture"
   },
   "jsAliases": {
     "base": "./storefront-reference-architecture/cartridges/app_storefront_base/cartridge/client/default/js",
-    "chicco": "./chicco/app_custom_storefront_chicco/cartridge/client/default/js",
-    "payu": "./payu/int_custom_payu/cartridge/client/default/js",
-    "wishlist": "./whislist/plugin_wishlists/cartridge/client/default/js",
     "bootstrap": "./node_modules/bootstrap",
     "lodash": "./node_modules/lodash",
     "jquery": "./node_modules/jquery"
   },
   "scssAliases": {
     "base": "./storefront-reference-architecture/cartridges/app_storefront_base/cartridge/client/default/scss",
-    "chicco": "./chicco/app_custom_storefront_chicco/cartridge/client/default/scss",
-    "wishlist": "./whislist/plugin_wishlists/cartridge/client/default/scss",
     "bootstrap": "./node_modules/bootstrap"
   },
   "scssIncludePaths": [
