@@ -1,0 +1,1 @@
+ <a href="${URLUtils.https('Checkout-Login')}" class="blue-btn d-block w-100 mt-4 ${pdict.valid.error ? 'disabled' : ''}"  role="button">${Resource.msg('button.checkout', 'cart', null)}</a>

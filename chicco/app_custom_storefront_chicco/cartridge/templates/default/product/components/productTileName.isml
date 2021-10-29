@@ -1,0 +1,5 @@
+<a href="${pdict.urls.product}">
+    <h6>
+        ${product.productName}
+    </h6>
+</a>

@@ -1,0 +1,20 @@
+<isloop items="${categories}" var="category">
+    <div class="category">
+        <div class="list_cat">
+            <div class="no_of_products">
+                ${pdict.productSearch.count}
+            </div>
+            <div class="category-filter">
+                <div class="form-group checkboxes-data mb-0 parent-cat">
+                    <input class="filters-refinments" type="checkbox" id="${category.displayValue.toLowerCase().replace(/ /g, '-')}" data-href="${category.url}" ${category.selected ? 'checked': ''}>
+                    <h6 id="filter_heading" for="${category.displayValue.toLowerCase().replace(/ /g, '-')}">${category.displayValue}</h6>
+                </div>                                                        
+                <div id="subcategories" class="sub_cat" >
+                     <isset name="categories" value="${category.subCategories}" scope="page" />
+                    <isinclude template="search/refinements/subCategories" />
+                </div>    					
+            </div>
+        </div>
+        <span class="border-bottom"></span>
+    </div>
+</isloop>

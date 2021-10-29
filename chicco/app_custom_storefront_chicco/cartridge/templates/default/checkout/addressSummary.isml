@@ -1,0 +1,17 @@
+<p style="color: #5B5360; font-size: 16px; line-height: 20px; margin: 0 0 8px;">
+    <b>
+        <isif condition="${address && address.firstName}">${address.firstName}</isif> 
+        <isif condition="${address && address.lastName}">${address.lastName}</isif>
+    </b>
+</p>
+<p style="color: #5B5360; font-size: 16px; line-height: 20px; margin: 0 0 8px;">
+    <isif condition="${address && address.address1}">${address.address1}</isif>
+    <isif condition="${address && address.address2}">${address.address2}</isif>
+</p>
+<p style="color: #5B5360; font-size: 16px; line-height: 20px; margin: 0 0 8px;">
+    <isif condition="${address && address.stateCode}">${address.stateCode}</isif>
+    <isif condition="${address && address.city}">${address.city},</isif>
+</p>
+<p style="color: #5B5360; font-size: 16px; line-height: 20px; margin: 0;">
+    <isif condition="${address && address.postalCode}">${address.postalCode}</isif>
+</p>
