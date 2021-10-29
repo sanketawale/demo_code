@@ -1,8 +1,0 @@
-{
-    "hooks": [
-        {
-            "name": "app.mailingList.subscribe",
-            "script": "./mailchimp/model/SubscriberModel.js"
-        }
-    ]
-}

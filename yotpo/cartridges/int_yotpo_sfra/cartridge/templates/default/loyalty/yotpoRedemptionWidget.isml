@@ -1,3 +1,0 @@
-<isif condition="${pdict.isLoyaltyEnabled && !empty(pdict.yotpoLoyaltyCheckoutInstanceID)}">
-    <div class="yotpo-widget-instance" data-yotpo-instance-id="${pdict.yotpoLoyaltyCheckoutInstanceID}"></div>
-</isif>
